@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="24sp"
+            android:layout_marginLeft="100dp"
+            />
+
+
+        <TextView
+            android:id="@+id/artistalbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="artist"
+            android:textSize="24sp"
+            android:layout_marginLeft="100dp"
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/imgAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buy Now"
+                android:textSize="24sp"
+                android:textColor="#0B1CB9"
+                android:gravity="center"
+                />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
